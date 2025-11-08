@@ -40,8 +40,8 @@ You will need the following software installed on your machine:
 1.  **Clone the repository:**
 
     ```sh
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
-    cd [your-repo-name]
+    git clone https://github.com/yogeshwarsingh04/Textbook_Quality_Assessment.git
+    cd Textbook_Quality_Assessment
     ```
 
 2.  **Database Setup:**
@@ -106,7 +106,8 @@ Here is an example of what the `Users` and `Textbooks` tables might look like:
 ## 🧑‍💻 Author
 
 - **Yogeshwar Singh**
-  - [Add your GitHub Profile Link](https://github.com/your-username)
-  - [Add your LinkedIn Profile Link](https://linkedin.com/in/your-profile)
+  - https://github.com/yogeshwarsingh04
+  - www.linkedin.com/in/contact-yogeshwarsingh
+
 
 ---
