@@ -7,10 +7,10 @@ import java.sql.SQLException;
 public class DatabaseUtil {
 
     
-    private static final String DB_URL = "jdbc:mysql://localhost:3307/textbook_quality_db"; 
+    private static final String DB_URL = "Database URL"; 
     
-    private static final String DB_USER = "root";
-    private static final String DB_PASS = "root@123"; 
+    private static final String DB_USER = "DB_Username";
+    private static final String DB_PASS = "DB_Password"; 
     
     private static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
 
@@ -36,4 +36,5 @@ public class DatabaseUtil {
             }
         }
     }
+
 }
