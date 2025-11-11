@@ -1,0 +1,108 @@
+/* src/main/webapp/css/style.css */
+
+/* --- 1. Global & Layout Styles --- */
+main.container {
+    padding-top: 1rem;
+}
+
+/* Used for login & register pages */
+main.center-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    max-width: 500px;
+}
+
+/* Used for profile, apply, suggest pages */
+main.narrow-form {
+    max-width: 768px;
+}
+
+
+/* --- 2. Message Box Styles --- */
+.message {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--pico-border-radius);
+    border: 1px solid;
+}
+.message.success {
+    background-color: var(--pico-positive-background);
+    border-color: var(--pico-positive-border);
+    color: var(--pico-positive-color);
+}
+.message.error {
+    background-color: var(--pico-form-invalid-background);
+    border-color: var(--pico-form-invalid-border);
+    color: var(--pico-del-color);
+}
+/* Login page error has a different name */
+.login-error {
+    background-color: var(--pico-form-invalid-background);
+    border: 1px solid var(--pico-form-invalid-border);
+    color: var(--pico-del-color);
+    padding: 1rem;
+    border-radius: var(--pico-border-radius);
+}
+
+
+/* --- 3. Book Details & Review Styles --- */
+.badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.25em 0.5em;
+    border-radius: var(--pico-border-radius);
+    color: white;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+.expert-badge {
+    background-color: var(--pico-primary, #007bff);
+}
+.educator-badge {
+    background-color: #28a745; /* Hard-coded green */
+}
+
+article.review-card {
+    background-color: var(--pico-secondary-background, #19232c);
+    border: 1px solid var(--pico-muted-border-color, #2d3e4f);
+    border-radius: var(--pico-border-radius);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+article.expert-review {
+    border-left: 4px solid var(--pico-primary, #007bff);
+}
+article.educator-review {
+    border-left: 4px solid #28a745;
+}
+article.review-card footer small {
+    font-size: 0.8em;
+    color: var(--pico-secondary-text-color);
+}
+
+
+/* --- 4. Admin Panel Styles --- */
+.admin-table table {
+    margin-top: 1rem;
+}
+.admin-table .creds {
+    max-width: 300px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.admin-table .approve, .admin-table .reject {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: var(--pico-border-radius);
+    color: white;
+    font-size: 0.9em;
+}
+.admin-table .approve {
+    background-color: #28a745;
+}
+.admin-table .reject {
+    background-color: #dc3545;
+}
